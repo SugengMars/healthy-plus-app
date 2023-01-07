@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Dv8WQrbvFHtpYPhsHRaR6T8slQtOrze2dTfhd+0VYlfxdqGJ3F1zJN31J8RQIgWuUwg7jQRiqdJ/GGwPzamVbg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asus\\source\\repos\\HPlus_Project\\HPlus_App\\HPlus_App\\HPlus_App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

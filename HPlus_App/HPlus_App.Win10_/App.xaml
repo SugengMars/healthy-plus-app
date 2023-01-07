@@ -1,0 +1,85 @@
+﻿<Application x:Class="HPlus_App.Win10.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Startup="Application_Startup">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button" x:Key="Button_Form">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <ImageBrush ImageSource="pack://application:,,/Assets/button1.png"/>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Background="{TemplateBinding Background}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Style.Triggers>
+                    <Trigger Property="IsPressed" Value="true">
+                        <Setter Property="Background">
+                            <Setter.Value>
+                                <ImageBrush ImageSource="pack://application:,,/Assets/press.png"/>
+                            </Setter.Value>
+                        </Setter>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+            <Style TargetType="TextBox" x:Key="Text_View">
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="12"/>
+                <Setter Property="Height" Value="20"/>
+            </Style>
+            <Style TargetType="TextBox" x:Key="Text_Area">
+                <Setter Property="VerticalContentAlignment" Value="Top"/>
+                <Setter Property="TextWrapping" Value="Wrap"/>
+                <Setter Property="FontSize" Value="12"/>
+                <Setter Property="Height" Value="158"/>
+            </Style>
+            <Style TargetType="Label" x:Key="Title_Label">
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="VerticalContentAlignment" Value="Bottom"/>
+                <Setter Property="Foreground" Value="#FFFFFF"/>
+            </Style>
+            <Style TargetType="Label" x:Key="Atb_Label">
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="Foreground" Value="#FFFFFF"/>
+            </Style>
+            <Style TargetType="Label" x:Key="Menu_Label">
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+            </Style>
+            <Style TargetType="MenuItem" x:Key="Menu_Parent">
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="Foreground" Value="#FFFFFF"/>
+            </Style>
+            <Style TargetType="MenuItem">
+                <Setter Property="Foreground" Value="#333333"/>
+            </Style>
+
+            <Style TargetType="ListBox">
+                <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="BorderBrush" Value="#E5E1E1"/>
+                <Setter Property="Background" Value="#E5E1E1"/>
+            </Style>
+            <Style TargetType="CheckBox">
+                <Setter Property="VerticalAlignment" Value="Center" />
+                <Setter Property="HorizontalAlignment" Value="Right" />
+                <Setter Property="FontSize" Value="12"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="Foreground" Value="#FFFFFF"/>
+            </Style>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

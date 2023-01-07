@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="View\Bahaya\JantungForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Bahaya\JantungView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Bahaya\KelaminForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Bahaya\KelaminView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Biasa\LambungForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Biasa\LambungView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Biasa\MataForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Biasa\MataView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Biasa\TulangForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Biasa\TulangView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Home\Dashboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\Bahaya\JantungForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Bahaya\JantungView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Bahaya\KelaminForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Bahaya\KelaminView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Biasa\LambungForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Biasa\LambungView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Biasa\MataForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Biasa\MataView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Biasa\TulangForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Biasa\TulangView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Home\Dashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
